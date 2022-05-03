@@ -1,0 +1,8 @@
+# graphql/getRecipe.graphql
+query getRecipe($id: Int!) {
+  recipe(id: $id) {
+    id
+    title
+    imageUrl
+  }
+}
